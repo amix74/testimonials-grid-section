@@ -1,0 +1,46 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Barlow Semi Condensed';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/barlow-semi-condensed-v15-latin-500.woff2') format('woff2'),
+  url('../fonts/barlow-semi-condensed-v15-latin-500.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Barlow Semi Condensed';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/barlow-semi-condensed-v15-latin-600.woff2') format('woff2'),
+  url('../fonts/barlow-semi-condensed-v15-latin-600.ttf') format('truetype');
+}
+
+@mixin text-preset-1 () {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+@mixin text-preset-2 () {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 110%;
+}
+
+@mixin text-preset-3 () {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 0.81rem;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+@mixin text-preset-4 () {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  line-height: 110%;
+}
+
